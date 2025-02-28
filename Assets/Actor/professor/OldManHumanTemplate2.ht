@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: OldManHumanTemplate2
+  m_BoneTemplate:
+    Chest: neckJTSpace
+    Head: headJT
+    Hips: Pelvis
+    Left Index Distal: fing1CLJT
+    Left Index Intermediate: fing1BLJT
+    Left Index Proximal: fing1ALJT
+    Left Little Distal: fing4CLJT
+    Left Little Intermediate: fing4BLJT
+    Left Little Proximal: fing4ALJT
+    Left Middle Distal: fing2CLJT
+    Left Middle Intermediate: fing2BLJT
+    Left Middle Proximal: fing2ALJT
+    Left Ring Distal: fing3CLJT
+    Left Ring Intermediate: fing3BLJT
+    Left Ring Proximal: fing3ALJT
+    Left Thumb Distal: thumbCLJT
+    Left Thumb Intermediate: thumbBLJT
+    Left Thumb Proximal: thumbALJT
+    LeftFoot: legCLJT
+    LeftHand: handLJT
+    LeftLowerArm: armFLJT
+    LeftLowerLeg: legBLJT
+    LeftShoulder: armBLJT
+    LeftToes: legDLJT
+    LeftUpperArm: armDLJT
+    LeftUpperLeg: legALJT
+    Right Index Distal: fing1CRJT
+    Right Index Intermediate: fing1BRJT
+    Right Index Proximal: fing1ARJT
+    Right Little Distal: fing4CRJT
+    Right Little Intermediate: fing4BRJT
+    Right Little Proximal: fing4ARJT
+    Right Middle Distal: fing2CRJT
+    Right Middle Intermediate: fing2BRJT
+    Right Middle Proximal: fing2ARJT
+    Right Ring Distal: fing3CRJT
+    Right Ring Intermediate: fing3BRJT
+    Right Ring Proximal: fing3ARJT
+    Right Thumb Distal: thumbCRJT
+    Right Thumb Intermediate: thumbBRJT
+    Right Thumb Proximal: thumbARJT
+    RightFoot: legCRJT
+    RightHand: handRJT
+    RightLowerArm: armFRJT
+    RightLowerLeg: legBRJT
+    RightShoulder: armBRJT
+    RightToes: legDRJT
+    RightUpperArm: armDRJT
+    RightUpperLeg: legARJT
+    Spine: Spine2

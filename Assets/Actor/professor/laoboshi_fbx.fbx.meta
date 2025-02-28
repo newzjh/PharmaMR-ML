@@ -1,0 +1,3543 @@
+fileFormatVersion: 2
+guid: 3254a12e6cc3de84fb3b875a84145f11
+timeCreated: 1505318677
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: animJTGP
+    100002: ankleL
+    100004: ankleLIK
+    100006: ankleLIkH
+    100008: ankleLPV
+    100010: ankleLSpace
+    100012: ankleR
+    100014: ankleRIK
+    100016: ankleRIkH
+    100018: ankleRPV
+    100020: ankleRSpace
+    100022: armALJT
+    100024: armARJT
+    100026: armBLJT
+    100028: armBRJT
+    100030: armCLJT
+    100032: armCRJT
+    100034: armDLJT
+    100036: armDRJT
+    100038: armELJT
+    100040: armERJT
+    100042: armFLJT
+    100044: armFRJT
+    100046: armGLJT
+    100048: armGRJT
+    100050: armIkAttacherFKL
+    100052: armIkAttacherFKR
+    100054: armIkAttacherIKL
+    100056: armIkAttacherIKR
+    100058: armLengthL
+    100060: armLengthR
+    100062: armLGP
+    100064: armLIkCtrlGP
+    100066: armLIkHandleGP
+    100068: armLPVNull
+    100070: armLPVNullSpace
+    100072: armLXtraAim
+    100074: armPoleVecAimerL
+    100076: armPoleVecAimerR
+    100078: armPoleVecL
+    100080: armPoleVecLSpace
+    100082: armPoleVecR
+    100084: armPoleVecRSpace
+    100086: armRGP
+    100088: armRIkCtrlGP
+    100090: armRIkHandleGP
+    100092: armRPVNull
+    100094: armRPVNullSpace
+    100096: armRXtraAim
+    100098: armStandardPVL
+    100100: armStandardPVLSpace
+    100102: armStandardPVR
+    100104: armStandardPVRSpace
+    100106: ballL
+    100108: ballLIK
+    100110: ballLIkH
+    100112: ballLPV
+    100114: ballLSpace
+    100116: ballPivGPL
+    100118: ballPivGPR
+    100120: ballR
+    100122: ballRIK
+    100124: ballRIkH
+    100126: ballRPV
+    100128: ballRSpace
+    100130: bladePivGPL
+    100132: bladePivGPR
+    100134: boshi_skin:albert_modelForRigRNfosterParent1
+    100136: boshi_skin:brows_label
+    100138: boshi_skin:browsCtrl
+    100140: boshi_skin:browsFrame
+    100142: boshi_skin:controls
+    100144: boshi_skin:emotion_label
+    100146: boshi_skin:emotionCtrl
+    100148: boshi_skin:emotionFrame
+    100150: boshi_skin:eyes_label
+    100152: boshi_skin:eyesCtrl
+    100154: boshi_skin:eyesFrame
+    100156: boshi_skin:finalHead
+    100158: boshi_skin:headBottom_label
+    100160: boshi_skin:headBottomCtrl
+    100162: boshi_skin:headBottomFrame
+    100164: boshi_skin:headMiddle_label
+    100166: boshi_skin:headMiddleCtrl
+    100168: boshi_skin:headMiddleFrame
+    100170: boshi_skin:headTop_label
+    100172: boshi_skin:headTopCtrl
+    100174: boshi_skin:headTopFrame
+    100176: boshi_skin:lids_label
+    100178: boshi_skin:lidsCtrl
+    100180: boshi_skin:lidsFrame
+    100182: boshi_skin:sync_label
+    100184: boshi_skin:syncCtrl
+    100186: boshi_skin:syncFrame
+    100188: boshi_skin:toothLine_label
+    100190: boshi_skin:toothLineCtrl
+    100192: boshi_skin:toothLineFrame
+    100194: boshi_skin:toothScale_label
+    100196: boshi_skin:toothScaleCtrl
+    100198: boshi_skin:toothScaleFrame
+    100200: clavL
+    100202: clavLIK
+    100204: clavLIKSpace
+    100206: clavLSpace
+    100208: clavR
+    100210: clavRIK
+    100212: clavRIKSpace
+    100214: clavRSpace
+    100216: controllerGP
+    100218: cornerASM
+    100220: cornerBSM
+    100222: cornerCSM
+    100224: dimian_usefull:group1
+    100226: Doctor_base_head_geo
+    100228: Doctor_coat2
+    100230: Doctor_hands_geo1
+    100232: Doctor_pants_geo
+    100234: elbowL
+    100236: elbowLFK
+    100238: elbowLIK
+    100240: elbowLJT
+    100242: elbowLSpace
+    100244: elbowR
+    100246: elbowRFK
+    100248: elbowRIK
+    100250: elbowRJT
+    100252: elbowRSpace
+    100254: eyebrowCtrlSpace
+    100256: fing1AL
+    100258: fing1ALJT
+    100260: fing1ALSpace
+    100262: fing1AR
+    100264: fing1ARJT
+    100266: fing1ARSpace
+    100268: fing1BL
+    100270: fing1BLJT
+    100272: fing1BLSpace
+    100274: fing1BR
+    100276: fing1BRJT
+    100278: fing1BRSpace
+    100280: fing1CL
+    100282: fing1CLJT
+    100284: fing1CLSpace
+    100286: fing1CR
+    100288: fing1CRJT
+    100290: fing1CRSpace
+    100292: fing1LJTEnd
+    100294: fing1RJTEnd
+    100296: fing2AL
+    100298: fing2ALJT
+    100300: fing2ALSpace
+    100302: fing2AR
+    100304: fing2ARJT
+    100306: fing2ARSpace
+    100308: fing2BL
+    100310: fing2BLJT
+    100312: fing2BLSpace
+    100314: fing2BR
+    100316: fing2BRJT
+    100318: fing2BRSpace
+    100320: fing2CL
+    100322: fing2CLJT
+    100324: fing2CLSpace
+    100326: fing2CR
+    100328: fing2CRJT
+    100330: fing2CRSpace
+    100332: fing2LJTEnd
+    100334: fing2RJTEnd
+    100336: fing3AL
+    100338: fing3ALJT
+    100340: fing3ALSpace
+    100342: fing3AR
+    100344: fing3ARJT
+    100346: fing3ARSpace
+    100348: fing3BL
+    100350: fing3BLJT
+    100352: fing3BLSpace
+    100354: fing3BR
+    100356: fing3BRJT
+    100358: fing3BRSpace
+    100360: fing3CL
+    100362: fing3CLJT
+    100364: fing3CLSpace
+    100366: fing3CR
+    100368: fing3CRJT
+    100370: fing3CRSpace
+    100372: fing3LJTEnd
+    100374: fing3RJTEnd
+    100376: fing4AL
+    100378: fing4ALJT
+    100380: fing4ALSpace
+    100382: fing4AR
+    100384: fing4ARJT
+    100386: fing4ARSpace
+    100388: fing4BL
+    100390: fing4BLJT
+    100392: fing4BLSpace
+    100394: fing4BR
+    100396: fing4BRJT
+    100398: fing4BRSpace
+    100400: fing4CL
+    100402: fing4CLJT
+    100404: fing4CLSpace
+    100406: fing4CR
+    100408: fing4CRJT
+    100410: fing4CRSpace
+    100412: fing4LJTEnd
+    100414: fing4RJTEnd
+    100416: fkCtrlGP
+    100418: footIkL
+    100420: footIkLSpace
+    100422: footIkR
+    100424: footIkRSpace
+    100426: footPivL
+    100428: footPivLSpace
+    100430: footPivR
+    100432: footPivRSpace
+    100434: geoGP
+    100436: group1
+    100438: group2
+    100440: handL
+    100442: handLJT
+    100444: handLJT_FKOri
+    100446: handLJTSpace
+    100448: handLSpace
+    100450: handR
+    100452: handRJT
+    100454: handRJT_FKOri
+    100456: handRJTSpace
+    100458: handRSpace
+    100460: head
+    100462: headJT
+    100464: headJT_worldOri
+    100466: headJTEnd
+    100468: headSpace
+    100470: heelPivGPL
+    100472: heelPivGPR
+    100474: heelUpGPL
+    100476: heelUpGPR
+    100478: hipJT
+    100480: hipJTSpace
+    100482: hipLoc
+    100484: ikAttacherFKL
+    100486: ikAttacherFKR
+    100488: ikAttacherIKL
+    100490: ikAttacherIKR
+    100492: ikCtrlGP
+    100494: ikHandleGP
+    100496: instepPivGPL
+    100498: instepPivGPR
+    100500: kneeL
+    100502: kneeLIK
+    100504: kneeLSpace
+    100506: kneeR
+    100508: kneeRIK
+    100510: kneeRSpace
+    100512: //RootNode
+    100514: legALJT
+    100516: legALJTSpace
+    100518: legARJT
+    100520: legARJTSpace
+    100522: legBLJT
+    100524: legBRJT
+    100526: legCLJT
+    100528: legCRJT
+    100530: legDLJT
+    100532: legDRJT
+    100534: legELJT
+    100536: legERJT
+    100538: legFLJT
+    100540: legFRJT
+    100542: legGLJT
+    100544: legGRJT
+    100546: legHLJT
+    100548: legHRJT
+    100550: legLengthL
+    100552: legLengthR
+    100554: legLFkPV
+    100556: legLGP
+    100558: legLIkCtrlGP
+    100560: legLIkH
+    100562: legLIkHandleGP
+    100564: legLJTEnd
+    100566: legLPVNull
+    100568: legLPVNullSpace
+    100570: legLXtraAim
+    100572: legPoleVecAimerL
+    100574: legPoleVecAimerR
+    100576: legPoleVecL
+    100578: legPoleVecLSpace
+    100580: legPoleVecR
+    100582: legPoleVecRSpace
+    100584: legRFkPV
+    100586: legRGP
+    100588: legRIkCtrlGP
+    100590: legRIkH
+    100592: legRIkHandleGP
+    100594: legRJTEnd
+    100596: legRPVNull
+    100598: legRPVNullSpace
+    100600: legRXtraAim
+    100602: legStandardPVL
+    100604: legStandardPVLSpace
+    100606: legStandardPVR
+    100608: legStandardPVRSpace
+    100610: neck
+    100612: neckJT
+    100614: neckJTSpace
+    100616: neckSpace
+    100618: paperSetupGP
+    100620: Pelvis
+    100622: penSpace
+    100624: penXtraSpace
+    100626: polySurface1
+    100628: prescriptionRoot
+    100630: prescriptionSpace
+    100632: prescriptionXtraSpace
+    100634: ROOT
+    100636: setupGP
+    100638: shldrJT
+    100640: shldrLoc
+    100642: shoulderL
+    100644: shoulderLFK
+    100646: shoulderLIK
+    100648: shoulderLJT
+    100650: shoulderLSpace
+    100652: shoulderR
+    100654: shoulderRFK
+    100656: shoulderRIK
+    100658: shoulderRJT
+    100660: shoulderRSpace
+    100662: Spine
+    100664: Spine1
+    100666: Spine2
+    100668: spineA_rpLoc
+    100670: spineA_rpLocSpace
+    100672: spineAFK
+    100674: spineAIK
+    100676: spineAIkH
+    100678: spineB_rpLoc
+    100680: spineB_rpLocSpace
+    100682: spineBFK
+    100684: spineBFKSpace
+    100686: spineBIK
+    100688: spineBIkH
+    100690: spineC_rpLoc
+    100692: spineC_rpLocSpace
+    100694: spineCFK
+    100696: spineCFKSpace
+    100698: spineCIK
+    100700: spineCIkH
+    100702: spineD_rpLoc
+    100704: spineD_rpLocSpace
+    100706: spineDFK
+    100708: spineDFKSpace
+    100710: spineDIK
+    100712: spineDIkH
+    100714: spineE_rpLoc
+    100716: spineE_rpLocSpace
+    100718: spineEIK
+    100720: spineEIkH
+    100722: spineEJT
+    100724: spineF_rpLoc
+    100726: spineF_rpLocSpace
+    100728: spineFIK
+    100730: spineFIkH
+    100732: spineFJT
+    100734: spineG_rpLoc
+    100736: spineG_rpLocSpace
+    100738: spineGIK
+    100740: spineGJT
+    100742: spineIkCrv
+    100744: spineIkGP
+    100746: spineIkH
+    100748: spineIkHGP
+    100750: spineLengthD
+    100752: thumbAL
+    100754: thumbALJT
+    100756: thumbALSpace
+    100758: thumbAR
+    100760: thumbARJT
+    100762: thumbARSpace
+    100764: thumbBL
+    100766: thumbBLJT
+    100768: thumbBLSpace
+    100770: thumbBR
+    100772: thumbBRJT
+    100774: thumbBRSpace
+    100776: thumbCL
+    100778: thumbCLJT
+    100780: thumbCLSpace
+    100782: thumbCR
+    100784: thumbCRJT
+    100786: thumbCRSpace
+    100788: thumbDLJT
+    100790: thumbDRJT
+    100792: toeAttachFKL
+    100794: toeAttachFKR
+    100796: toeAttachIKL
+    100798: toeAttachIKR
+    100800: toeLIK
+    100802: toePivGPL
+    100804: toePivGPR
+    100806: toeRIK
+    100808: toeUpGPL
+    100810: toeUpGPR
+    100812: upLegL
+    100814: upLegLIK
+    100816: upLegLIKSpace
+    100818: upLegLSpace
+    100820: upLegR
+    100822: upLegRIK
+    100824: upLegRIKSpace
+    100826: upLegRSpace
+    100828: uprBody
+    100830: world
+    100832: worldProxy
+    100834: wristIkL
+    100836: wristIkLSpace
+    100838: wristIkR
+    100840: wristIkRSpace
+    100842: wristLFK
+    100844: wristLIK
+    100846: wristLIKEnd1
+    100848: wristLIKEnd2
+    100850: wristLIkH
+    100852: wristLJT
+    100854: wristRFK
+    100856: wristRIK
+    100858: wristRIKEnd1
+    100860: wristRIKEnd2
+    100862: wristRIkH
+    100864: wristRJT
+    100866: xtraOriJTs
+    100868: yanjing:polySurface1
+    400000: animJTGP
+    400002: ankleL
+    400004: ankleLIK
+    400006: ankleLIkH
+    400008: ankleLPV
+    400010: ankleLSpace
+    400012: ankleR
+    400014: ankleRIK
+    400016: ankleRIkH
+    400018: ankleRPV
+    400020: ankleRSpace
+    400022: armALJT
+    400024: armARJT
+    400026: armBLJT
+    400028: armBRJT
+    400030: armCLJT
+    400032: armCRJT
+    400034: armDLJT
+    400036: armDRJT
+    400038: armELJT
+    400040: armERJT
+    400042: armFLJT
+    400044: armFRJT
+    400046: armGLJT
+    400048: armGRJT
+    400050: armIkAttacherFKL
+    400052: armIkAttacherFKR
+    400054: armIkAttacherIKL
+    400056: armIkAttacherIKR
+    400058: armLengthL
+    400060: armLengthR
+    400062: armLGP
+    400064: armLIkCtrlGP
+    400066: armLIkHandleGP
+    400068: armLPVNull
+    400070: armLPVNullSpace
+    400072: armLXtraAim
+    400074: armPoleVecAimerL
+    400076: armPoleVecAimerR
+    400078: armPoleVecL
+    400080: armPoleVecLSpace
+    400082: armPoleVecR
+    400084: armPoleVecRSpace
+    400086: armRGP
+    400088: armRIkCtrlGP
+    400090: armRIkHandleGP
+    400092: armRPVNull
+    400094: armRPVNullSpace
+    400096: armRXtraAim
+    400098: armStandardPVL
+    400100: armStandardPVLSpace
+    400102: armStandardPVR
+    400104: armStandardPVRSpace
+    400106: ballL
+    400108: ballLIK
+    400110: ballLIkH
+    400112: ballLPV
+    400114: ballLSpace
+    400116: ballPivGPL
+    400118: ballPivGPR
+    400120: ballR
+    400122: ballRIK
+    400124: ballRIkH
+    400126: ballRPV
+    400128: ballRSpace
+    400130: bladePivGPL
+    400132: bladePivGPR
+    400134: boshi_skin:albert_modelForRigRNfosterParent1
+    400136: boshi_skin:brows_label
+    400138: boshi_skin:browsCtrl
+    400140: boshi_skin:browsFrame
+    400142: boshi_skin:controls
+    400144: boshi_skin:emotion_label
+    400146: boshi_skin:emotionCtrl
+    400148: boshi_skin:emotionFrame
+    400150: boshi_skin:eyes_label
+    400152: boshi_skin:eyesCtrl
+    400154: boshi_skin:eyesFrame
+    400156: boshi_skin:finalHead
+    400158: boshi_skin:headBottom_label
+    400160: boshi_skin:headBottomCtrl
+    400162: boshi_skin:headBottomFrame
+    400164: boshi_skin:headMiddle_label
+    400166: boshi_skin:headMiddleCtrl
+    400168: boshi_skin:headMiddleFrame
+    400170: boshi_skin:headTop_label
+    400172: boshi_skin:headTopCtrl
+    400174: boshi_skin:headTopFrame
+    400176: boshi_skin:lids_label
+    400178: boshi_skin:lidsCtrl
+    400180: boshi_skin:lidsFrame
+    400182: boshi_skin:sync_label
+    400184: boshi_skin:syncCtrl
+    400186: boshi_skin:syncFrame
+    400188: boshi_skin:toothLine_label
+    400190: boshi_skin:toothLineCtrl
+    400192: boshi_skin:toothLineFrame
+    400194: boshi_skin:toothScale_label
+    400196: boshi_skin:toothScaleCtrl
+    400198: boshi_skin:toothScaleFrame
+    400200: clavL
+    400202: clavLIK
+    400204: clavLIKSpace
+    400206: clavLSpace
+    400208: clavR
+    400210: clavRIK
+    400212: clavRIKSpace
+    400214: clavRSpace
+    400216: controllerGP
+    400218: cornerASM
+    400220: cornerBSM
+    400222: cornerCSM
+    400224: dimian_usefull:group1
+    400226: Doctor_base_head_geo
+    400228: Doctor_coat2
+    400230: Doctor_hands_geo1
+    400232: Doctor_pants_geo
+    400234: elbowL
+    400236: elbowLFK
+    400238: elbowLIK
+    400240: elbowLJT
+    400242: elbowLSpace
+    400244: elbowR
+    400246: elbowRFK
+    400248: elbowRIK
+    400250: elbowRJT
+    400252: elbowRSpace
+    400254: eyebrowCtrlSpace
+    400256: fing1AL
+    400258: fing1ALJT
+    400260: fing1ALSpace
+    400262: fing1AR
+    400264: fing1ARJT
+    400266: fing1ARSpace
+    400268: fing1BL
+    400270: fing1BLJT
+    400272: fing1BLSpace
+    400274: fing1BR
+    400276: fing1BRJT
+    400278: fing1BRSpace
+    400280: fing1CL
+    400282: fing1CLJT
+    400284: fing1CLSpace
+    400286: fing1CR
+    400288: fing1CRJT
+    400290: fing1CRSpace
+    400292: fing1LJTEnd
+    400294: fing1RJTEnd
+    400296: fing2AL
+    400298: fing2ALJT
+    400300: fing2ALSpace
+    400302: fing2AR
+    400304: fing2ARJT
+    400306: fing2ARSpace
+    400308: fing2BL
+    400310: fing2BLJT
+    400312: fing2BLSpace
+    400314: fing2BR
+    400316: fing2BRJT
+    400318: fing2BRSpace
+    400320: fing2CL
+    400322: fing2CLJT
+    400324: fing2CLSpace
+    400326: fing2CR
+    400328: fing2CRJT
+    400330: fing2CRSpace
+    400332: fing2LJTEnd
+    400334: fing2RJTEnd
+    400336: fing3AL
+    400338: fing3ALJT
+    400340: fing3ALSpace
+    400342: fing3AR
+    400344: fing3ARJT
+    400346: fing3ARSpace
+    400348: fing3BL
+    400350: fing3BLJT
+    400352: fing3BLSpace
+    400354: fing3BR
+    400356: fing3BRJT
+    400358: fing3BRSpace
+    400360: fing3CL
+    400362: fing3CLJT
+    400364: fing3CLSpace
+    400366: fing3CR
+    400368: fing3CRJT
+    400370: fing3CRSpace
+    400372: fing3LJTEnd
+    400374: fing3RJTEnd
+    400376: fing4AL
+    400378: fing4ALJT
+    400380: fing4ALSpace
+    400382: fing4AR
+    400384: fing4ARJT
+    400386: fing4ARSpace
+    400388: fing4BL
+    400390: fing4BLJT
+    400392: fing4BLSpace
+    400394: fing4BR
+    400396: fing4BRJT
+    400398: fing4BRSpace
+    400400: fing4CL
+    400402: fing4CLJT
+    400404: fing4CLSpace
+    400406: fing4CR
+    400408: fing4CRJT
+    400410: fing4CRSpace
+    400412: fing4LJTEnd
+    400414: fing4RJTEnd
+    400416: fkCtrlGP
+    400418: footIkL
+    400420: footIkLSpace
+    400422: footIkR
+    400424: footIkRSpace
+    400426: footPivL
+    400428: footPivLSpace
+    400430: footPivR
+    400432: footPivRSpace
+    400434: geoGP
+    400436: group1
+    400438: group2
+    400440: handL
+    400442: handLJT
+    400444: handLJT_FKOri
+    400446: handLJTSpace
+    400448: handLSpace
+    400450: handR
+    400452: handRJT
+    400454: handRJT_FKOri
+    400456: handRJTSpace
+    400458: handRSpace
+    400460: head
+    400462: headJT
+    400464: headJT_worldOri
+    400466: headJTEnd
+    400468: headSpace
+    400470: heelPivGPL
+    400472: heelPivGPR
+    400474: heelUpGPL
+    400476: heelUpGPR
+    400478: hipJT
+    400480: hipJTSpace
+    400482: hipLoc
+    400484: ikAttacherFKL
+    400486: ikAttacherFKR
+    400488: ikAttacherIKL
+    400490: ikAttacherIKR
+    400492: ikCtrlGP
+    400494: ikHandleGP
+    400496: instepPivGPL
+    400498: instepPivGPR
+    400500: kneeL
+    400502: kneeLIK
+    400504: kneeLSpace
+    400506: kneeR
+    400508: kneeRIK
+    400510: kneeRSpace
+    400512: //RootNode
+    400514: legALJT
+    400516: legALJTSpace
+    400518: legARJT
+    400520: legARJTSpace
+    400522: legBLJT
+    400524: legBRJT
+    400526: legCLJT
+    400528: legCRJT
+    400530: legDLJT
+    400532: legDRJT
+    400534: legELJT
+    400536: legERJT
+    400538: legFLJT
+    400540: legFRJT
+    400542: legGLJT
+    400544: legGRJT
+    400546: legHLJT
+    400548: legHRJT
+    400550: legLengthL
+    400552: legLengthR
+    400554: legLFkPV
+    400556: legLGP
+    400558: legLIkCtrlGP
+    400560: legLIkH
+    400562: legLIkHandleGP
+    400564: legLJTEnd
+    400566: legLPVNull
+    400568: legLPVNullSpace
+    400570: legLXtraAim
+    400572: legPoleVecAimerL
+    400574: legPoleVecAimerR
+    400576: legPoleVecL
+    400578: legPoleVecLSpace
+    400580: legPoleVecR
+    400582: legPoleVecRSpace
+    400584: legRFkPV
+    400586: legRGP
+    400588: legRIkCtrlGP
+    400590: legRIkH
+    400592: legRIkHandleGP
+    400594: legRJTEnd
+    400596: legRPVNull
+    400598: legRPVNullSpace
+    400600: legRXtraAim
+    400602: legStandardPVL
+    400604: legStandardPVLSpace
+    400606: legStandardPVR
+    400608: legStandardPVRSpace
+    400610: neck
+    400612: neckJT
+    400614: neckJTSpace
+    400616: neckSpace
+    400618: paperSetupGP
+    400620: Pelvis
+    400622: penSpace
+    400624: penXtraSpace
+    400626: polySurface1
+    400628: prescriptionRoot
+    400630: prescriptionSpace
+    400632: prescriptionXtraSpace
+    400634: ROOT
+    400636: setupGP
+    400638: shldrJT
+    400640: shldrLoc
+    400642: shoulderL
+    400644: shoulderLFK
+    400646: shoulderLIK
+    400648: shoulderLJT
+    400650: shoulderLSpace
+    400652: shoulderR
+    400654: shoulderRFK
+    400656: shoulderRIK
+    400658: shoulderRJT
+    400660: shoulderRSpace
+    400662: Spine
+    400664: Spine1
+    400666: Spine2
+    400668: spineA_rpLoc
+    400670: spineA_rpLocSpace
+    400672: spineAFK
+    400674: spineAIK
+    400676: spineAIkH
+    400678: spineB_rpLoc
+    400680: spineB_rpLocSpace
+    400682: spineBFK
+    400684: spineBFKSpace
+    400686: spineBIK
+    400688: spineBIkH
+    400690: spineC_rpLoc
+    400692: spineC_rpLocSpace
+    400694: spineCFK
+    400696: spineCFKSpace
+    400698: spineCIK
+    400700: spineCIkH
+    400702: spineD_rpLoc
+    400704: spineD_rpLocSpace
+    400706: spineDFK
+    400708: spineDFKSpace
+    400710: spineDIK
+    400712: spineDIkH
+    400714: spineE_rpLoc
+    400716: spineE_rpLocSpace
+    400718: spineEIK
+    400720: spineEIkH
+    400722: spineEJT
+    400724: spineF_rpLoc
+    400726: spineF_rpLocSpace
+    400728: spineFIK
+    400730: spineFIkH
+    400732: spineFJT
+    400734: spineG_rpLoc
+    400736: spineG_rpLocSpace
+    400738: spineGIK
+    400740: spineGJT
+    400742: spineIkCrv
+    400744: spineIkGP
+    400746: spineIkH
+    400748: spineIkHGP
+    400750: spineLengthD
+    400752: thumbAL
+    400754: thumbALJT
+    400756: thumbALSpace
+    400758: thumbAR
+    400760: thumbARJT
+    400762: thumbARSpace
+    400764: thumbBL
+    400766: thumbBLJT
+    400768: thumbBLSpace
+    400770: thumbBR
+    400772: thumbBRJT
+    400774: thumbBRSpace
+    400776: thumbCL
+    400778: thumbCLJT
+    400780: thumbCLSpace
+    400782: thumbCR
+    400784: thumbCRJT
+    400786: thumbCRSpace
+    400788: thumbDLJT
+    400790: thumbDRJT
+    400792: toeAttachFKL
+    400794: toeAttachFKR
+    400796: toeAttachIKL
+    400798: toeAttachIKR
+    400800: toeLIK
+    400802: toePivGPL
+    400804: toePivGPR
+    400806: toeRIK
+    400808: toeUpGPL
+    400810: toeUpGPR
+    400812: upLegL
+    400814: upLegLIK
+    400816: upLegLIKSpace
+    400818: upLegLSpace
+    400820: upLegR
+    400822: upLegRIK
+    400824: upLegRIKSpace
+    400826: upLegRSpace
+    400828: uprBody
+    400830: world
+    400832: worldProxy
+    400834: wristIkL
+    400836: wristIkLSpace
+    400838: wristIkR
+    400840: wristIkRSpace
+    400842: wristLFK
+    400844: wristLIK
+    400846: wristLIKEnd1
+    400848: wristLIKEnd2
+    400850: wristLIkH
+    400852: wristLJT
+    400854: wristRFK
+    400856: wristRIK
+    400858: wristRIKEnd1
+    400860: wristRIKEnd2
+    400862: wristRIkH
+    400864: wristRJT
+    400866: xtraOriJTs
+    400868: yanjing:polySurface1
+    2300000: boshi_skin:albert_modelForRigRNfosterParent1
+    2300002: polySurface1
+    2300004: yanjing:polySurface1
+    3300000: boshi_skin:albert_modelForRigRNfosterParent1
+    3300002: polySurface1
+    3300004: yanjing:polySurface1
+    4300000: boshi_skin:finalHead
+    4300002: boshi_skin:albert_modelForRigRNfosterParent1
+    4300004: polySurface1
+    4300006: yanjing:polySurface1
+    4300008: Doctor_pants_geo
+    4300010: Doctor_hands_geo1
+    4300012: Doctor_coat2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: boshi_skin:finalHead
+    13700002: Doctor_coat2
+    13700004: Doctor_hands_geo1
+    13700006: Doctor_pants_geo
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legALJT
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legARJT
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legDLJT
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legDRJT
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legGLJT
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legGRJT
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spineGJT
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: headJT
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armLGP
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armRGP
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armALJT
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armARJT
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armDLJT
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armDRJT
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armGLJT
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: armGRJT
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legHLJT
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: legHRJT
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbALJT
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbBLJT
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbCLJT
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1ALJT
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1BLJT
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1CLJT
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2ALJT
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2BLJT
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2CLJT
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3ALJT
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3BLJT
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3CLJT
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4ALJT
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4BLJT
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4CLJT
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbARJT
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbBRJT
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumbCRJT
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1ARJT
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1BRJT
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing1CRJT
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2ARJT
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2BRJT
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing2CRJT
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3ARJT
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3BRJT
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing3CRJT
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4ARJT
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4BRJT
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: fing4CRJT
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neckJTSpace
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: laoboshi_fbx(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: dimian_usefull:group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Doctor_base_head_geo
+      position: {x: -0, y: 0.055448454, z: -0.004045534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0615342, y: 1.0615342, z: 1.0615342}
+      transformModified: 0
+    - name: group1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: group2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: penXtraSpace
+      position: {x: -0.010934073, y: 0.05319689, z: -0.0005723685}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: penSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: prescriptionRoot
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: paperSetupGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: cornerASM
+      position: {x: -0.009832151, y: 0.056872338, z: -0.001156776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: cornerBSM
+      position: {x: -0.00605179, y: 0.056872338, z: -0.001156776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: cornerCSM
+      position: {x: -0.009832151, y: 0.051890254, z: -0.001156776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: prescriptionXtraSpace
+      position: {x: -0.007942047, y: 0.051890254, z: -0.001156776}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: prescriptionSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ROOT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: animJTGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: world
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineIkGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineAIK
+      position: {x: -1.1054975e-33, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: spineA_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineA_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineBIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: spineB_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineB_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineCIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: spineC_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineC_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineDIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: spineD_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineD_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineEIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: spineE_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineE_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineFIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: spineF_rpLocSpace
+      position: {x: -0, y: 1.9721522e-33, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineF_rpLoc
+      position: {x: -6.661338e-18, y: -0.03, z: -3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineGIK
+      position: {x: -0.0015724666, y: 3.4915772e-19, z: 2.0816681e-19}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineG_rpLocSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 6.123234e-17, y: -6.123234e-17, z: -3.7493994e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineG_rpLoc
+      position: {x: 0.03, y: -4.499279e-34, z: 3.67394e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineIkHGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineAIkH
+      position: {x: 3.4915767e-19, y: 0.035198983, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineBIkH
+      position: {x: 6.9831533e-19, y: 0.03677145, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineCIkH
+      position: {x: 1.047473e-18, y: 0.038343914, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineDIkH
+      position: {x: 1.3966307e-18, y: 0.03991638, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineEIkH
+      position: {x: 1.7457883e-18, y: 0.04148885, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineFIkH
+      position: {x: 2.094946e-18, y: 0.043061312, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineIkCrv
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineIkH
+      position: {x: -3.7460561e-25, y: 0.043061312, z: 0.00041609246}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Pelvis
+      position: {x: -1.1054975e-33, y: 0.016534453, z: 0.00041609246}
+      rotation: {x: -0.7071068, y: 0.7071068, z: -0.0000000052683564, w: 0.0000000052683564}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: legLGP
+      position: {x: -4.3076653e-14, y: 0.0032454177, z: -5.2395584e-16}
+      rotation: {x: 6.110099e-17, y: 0.99999774, z: -6.110099e-17, w: -0.0021428657}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 0
+    - name: legALJTSpace
+      position: {x: 1.3322676e-17, y: -3.330669e-18, z: 0}
+      rotation: {x: -1.7984321e-10, y: 0.0000011802128, z: 0.00000004195141, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legALJT
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: -0.000000045733174, y: 0.000000025568662, z: 1.1693361e-15, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legBLJT
+      position: {x: -0.0053510056, y: -1.8873792e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legCLJT
+      position: {x: -0.0053510056, y: -1.8318679e-17, z: 2.0816681e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legDLJT
+      position: {x: -0.0053510047, y: 1.4023971e-10, z: -0.000000038723723}
+      rotation: {x: 0.0000000041677537, y: -0.052201174, z: -0.00000007973877, w: 0.9986366}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legELJT
+      position: {x: -0.005333469, y: -5.551115e-19, z: -6.1062266e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legFLJT
+      position: {x: -0.005333469, y: 2.0006495e-13, z: -9.714451e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legGLJT
+      position: {x: -0.005333473, y: 1.2476129e-11, z: 0.000000038729745}
+      rotation: {x: -0.07248868, y: 0.6331684, z: -0.048389066, w: 0.7690914}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legHLJT
+      position: {x: -0.004838607, y: -5.551115e-19, z: -2.7755574e-18}
+      rotation: {x: -0.00000083961237, y: 0.14618465, z: 0.0000001240713, w: 0.98925734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLJTEnd
+      position: {x: -0.0023869271, y: 2.6011934e-11, z: 9.367506e-19}
+      rotation: {x: 0.49999997, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegLIKSpace
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: 2.1666712e-34, y: -0, z: -3.3112735e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegLIK
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: -0.00000004573313, y: 0.0000012057816, z: 0.000000037583447, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeLIK
+      position: {x: -0.016053015, y: 5.5511148e-18, z: 6.938894e-20}
+      rotation: {x: 0.000000004167754, y: -0.052201174, z: -0.00000007973877, w: 0.9986366}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleLIK
+      position: {x: -0.016000407, y: 1.5543122e-17, z: -8.3266725e-19}
+      rotation: {x: -0.07248836, y: 0.63316745, z: -0.048389293, w: 0.76909226}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballLIK
+      position: {x: -0.004838607, y: -6.1062266e-18, z: 5.2735593e-18}
+      rotation: {x: -0.00000083961237, y: 0.14618465, z: 0.0000001240713, w: 0.98925734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeLIK
+      position: {x: -0.0023869271, y: -1.6653345e-18, z: 2.7755575e-19}
+      rotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRGP
+      position: {x: -4.3094417e-14, y: -0.0032454177, z: -5.337397e-16}
+      rotation: {x: 0, y: 0.0021428657, z: -0, w: 0.99999774}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+      transformModified: 0
+    - name: legARJTSpace
+      position: {x: -0, y: -1.6653345e-18, z: 0}
+      rotation: {x: 6.121733e-17, y: 1, z: -1.27177745e-14, w: -0.0000011802293}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legARJT
+      position: {x: 4.440892e-18, y: 0, z: -6.938894e-20}
+      rotation: {x: 6.1232336e-17, y: 1, z: -6.1232336e-17, w: -0.000000025522304}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legBRJT
+      position: {x: 0.0053510056, y: -2.220446e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legCRJT
+      position: {x: 0.0053510056, y: -4.440892e-18, z: -5.551115e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legDRJT
+      position: {x: 0.0053510047, y: 2.1094237e-17, z: -0.000000038723723}
+      rotation: {x: 0, y: -0.052201174, z: -0, w: 0.9986366}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legERJT
+      position: {x: 0.005333469, y: 1.0547119e-17, z: 8.326672e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legFRJT
+      position: {x: 0.005333469, y: 8.326672e-18, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legGRJT
+      position: {x: 0.0053334646, y: -1.11022296e-17, z: 0.000000038729745}
+      rotation: {x: -0.07248873, y: 0.6331684, z: -0.048389126, w: 0.7690914}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legHRJT
+      position: {x: 0.004838607, y: 4.9960034e-18, z: 9.714451e-18}
+      rotation: {x: 0.0000000018328659, y: 0.14618465, z: -2.539262e-10, w: 0.98925734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRJTEnd
+      position: {x: 0.0023869271, y: 2.3314683e-17, z: -2.0816681e-19}
+      rotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegRIKSpace
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: -0, y: -4.3368087e-19, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegRIK
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: -0.0000000074403457, y: 0.0000012057517, z: -3.9040046e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeRIK
+      position: {x: 0.016053015, y: 1.6653345e-18, z: -1.3877787e-19}
+      rotation: {x: -8.673128e-14, y: -0.052201174, z: 1.6243938e-12, w: 0.9986366}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleRIK
+      position: {x: 0.016000407, y: 3.719247e-17, z: -2.7755575e-19}
+      rotation: {x: -0.07248842, y: 0.63316745, z: -0.048389345, w: 0.76909226}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballRIK
+      position: {x: 0.004838607, y: -1.1324275e-16, z: 1.110223e-18}
+      rotation: {x: 0.98925734, y: -2.6241212e-10, z: -0.14618465, w: -0.0000000017756108}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeRIK
+      position: {x: 0.0023869271, y: -6.217249e-17, z: -1.4224732e-18}
+      rotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Spine
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: Spine1
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: Spine2
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: spineEJT
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: 0.000000007450581, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+      transformModified: 0
+    - name: spineFJT
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+      transformModified: 0
+    - name: spineGJT
+      position: {x: -0.0015724666, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: neckJTSpace
+      position: {x: -1.984661e-18, y: 0.007820482, z: -0.000900547}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLGP
+      position: {x: 0.0026520642, y: 0.0025855445, z: 0.00020255368}
+      rotation: {x: -0.6149457, y: 0.7885695, z: -8.5940525e-17, w: -1.0631393e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavLIKSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavLIK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderLIK
+      position: {x: -0.003603677, y: -8.881784e-18, z: -9.714452e-19}
+      rotation: {x: 0.0000000073942177, y: -9.14712e-10, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowLIK
+      position: {x: -0.011213683, y: 1.7763568e-17, z: 1.3877787e-18}
+      rotation: {x: -6.819112e-17, y: 0.000000010054107, z: 0.000000006782414, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLIK
+      position: {x: -0.0081204595, y: 0, z: 6.9388935e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLIKEnd1
+      position: {x: -0.0024067452, y: -1.7763568e-17, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderLJT
+      position: {x: -0.003603677, y: -8.881784e-18, z: -9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowLJT
+      position: {x: -0.011213683, y: 1.7763568e-17, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLJT
+      position: {x: -0.0081204595, y: 0, z: 6.9388935e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderLFK
+      position: {x: -0.003603677, y: -8.881784e-18, z: -9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowLFK
+      position: {x: -0.011213683, y: 1.7763568e-17, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLFK
+      position: {x: -0.0081204595, y: 0, z: 6.9388935e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLIKEnd2
+      position: {x: -0.0024067452, y: -1.7763568e-17, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armALJT
+      position: {x: -0.003603677, y: -1.7763568e-17, z: -9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armBLJT
+      position: {x: -0.0037378941, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armCLJT
+      position: {x: -0.0037378941, y: -1.7763568e-17, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armDLJT
+      position: {x: -0.0037378941, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armELJT
+      position: {x: -0.0027068197, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armFLJT
+      position: {x: -0.0027068197, y: -2.6645352e-17, z: 2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armGLJT
+      position: {x: -0.00270682, y: 8.881784e-18, z: 2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handLJTSpace
+      position: {x: -0, y: 8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handLJT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbALJT
+      position: {x: -0.0004931202, y: -0.000533299, z: 0.00075245794}
+      rotation: {x: 0.62610894, y: 0.29969186, z: -0.26883903, w: 0.66775596}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBLJT
+      position: {x: -0.0011955325, y: 1.6653344e-17, z: -8.881784e-18}
+      rotation: {x: 0.006081369, y: -0.036037244, z: 0.012220196, w: 0.9992573}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCLJT
+      position: {x: -0.0008773096, y: 0, z: 1.0547119e-17}
+      rotation: {x: -0.000569915, y: -0.031183824, z: 0.024356265, w: 0.99921674}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbDLJT
+      position: {x: -0.0014196084, y: -2.220446e-18, z: -3.330669e-18}
+      rotation: {x: -0.043619387, y: 0, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1ALJT
+      position: {x: -0.0023861956, y: -0.000020141535, z: 0.0009840515}
+      rotation: {x: -0.000000028463532, y: 0.007311318, z: -0.005155248, w: 0.99996006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BLJT
+      position: {x: -0.00095857744, y: 8.881784e-18, z: -9.194034e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CLJT
+      position: {x: -0.00088811346, y: 1.7763568e-17, z: -4.7704896e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1LJTEnd
+      position: {x: -0.0008441513, y: -2.6645352e-17, z: 4.6317114e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2ALJT
+      position: {x: -0.0024175479, y: 0.00025821928, z: 0.00036623038}
+      rotation: {x: 0.000040101328, y: 0.005991156, z: -0.0074764965, w: 0.9999541}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BLJT
+      position: {x: -0.0010591506, y: -8.881784e-18, z: 6.9388935e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CLJT
+      position: {x: -0.00095472723, y: 0, z: -1.9428903e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2LJTEnd
+      position: {x: -0.0009186205, y: -2.6645352e-17, z: 1.6583956e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3ALJT
+      position: {x: -0.0024359985, y: 0.0002550635, z: -0.00028811538}
+      rotation: {x: -0.0000142768195, y: 0.008871159, z: -0.0026617933, w: 0.9999571}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BLJT
+      position: {x: -0.0009955073, y: 1.7763568e-17, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CLJT
+      position: {x: -0.00092443556, y: 8.881784e-18, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3LJTEnd
+      position: {x: -0.000880756, y: -8.881784e-18, z: 1.7902346e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4ALJT
+      position: {x: -0.0023329696, y: 0.00013808765, z: -0.00090227503}
+      rotation: {x: 0, y: 0.010720851, z: -0, w: 0.99994254}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BLJT
+      position: {x: -0.0010407491, y: -2.6645352e-17, z: 5.2735593e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CLJT
+      position: {x: -0.00075012725, y: -8.881784e-18, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4LJTEnd
+      position: {x: -0.0007003389, y: -2.6645352e-17, z: 9.714451e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRGP
+      position: {x: 0.0026520642, y: -0.0025855445, z: 0.00020255368}
+      rotation: {x: 0, y: -0, z: -0.6149457, w: 0.7885695}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavRIKSpace
+      position: {x: -1.110223e-18, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavRIK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderRJT
+      position: {x: 0.003603677, y: 8.881784e-18, z: 1.8041123e-18}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowRJT
+      position: {x: 0.011213683, y: -8.881784e-18, z: -1.2351231e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRJT
+      position: {x: 0.0081204595, y: -8.881784e-18, z: -9.020562e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderRIK
+      position: {x: 0.003603677, y: 8.881784e-18, z: 1.8041123e-18}
+      rotation: {x: 0.000000010956854, y: -0.000000001355433, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowRIK
+      position: {x: 0.011213683, y: -8.881784e-18, z: -1.2351231e-17}
+      rotation: {x: -8.5905563e-16, y: 0.000000010046372, z: 2.3189705e-12, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRIK
+      position: {x: 0.0081204595, y: -8.881784e-18, z: -9.020562e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRIKEnd1
+      position: {x: 0.0024067452, y: 1.7763568e-17, z: -3.6082247e-18}
+      rotation: {x: 1, y: 0, z: 0, w: -2.2816785e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderRFK
+      position: {x: 0.003603677, y: 8.881784e-18, z: 1.8041123e-18}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowRFK
+      position: {x: 0.011213683, y: -8.881784e-18, z: -1.2351231e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRFK
+      position: {x: 0.0081204595, y: -8.881784e-18, z: -9.020562e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRIKEnd2
+      position: {x: 0.0024067452, y: 1.7763568e-17, z: -3.6082247e-18}
+      rotation: {x: 1, y: 0, z: 0, w: -2.2816785e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armARJT
+      position: {x: 0.003603677, y: 1.7763568e-17, z: 1.8041123e-18}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armBRJT
+      position: {x: 0.0037378941, y: 0, z: 4.163336e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armCRJT
+      position: {x: 0.0037378941, y: 0, z: 5.1347816e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armDRJT
+      position: {x: 0.0037378941, y: 8.881784e-18, z: -7.494005e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armERJT
+      position: {x: 0.0027068197, y: 0, z: 3.8857806e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armFRJT
+      position: {x: 0.0027068197, y: 0, z: 3.7470024e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armGRJT
+      position: {x: 0.00270682, y: -8.881784e-18, z: -5.689893e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handRJTSpace
+      position: {x: -4.440892e-18, y: 1.7763568e-17, z: 2.539635e-17}
+      rotation: {x: -2.3429107e-15, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handRJT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1ARJT
+      position: {x: 0.0023861693, y: 0.000020176174, z: -0.0009840513}
+      rotation: {x: -0.002299203, y: 0.0017291212, z: -0.017629692, w: 0.99984044}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BRJT
+      position: {x: 0.00095859997, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CRJT
+      position: {x: 0.00088809995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1RJTEnd
+      position: {x: 0.0008442, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbARJT
+      position: {x: 0.0004931694, y: 0.0005332762, z: -0.00075245806}
+      rotation: {x: 0.6332671, y: 0.2906676, z: -0.2760829, w: 0.6620146}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBRJT
+      position: {x: 0.0011954567, y: -0.000000026056847, z: -0.0000000731713}
+      rotation: {x: 0.006081518, y: -0.035991393, z: 0.01220759, w: 0.99925905}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCRJT
+      position: {x: 0.0008773156, y: 0.0000000029633962, z: 0.00000002026961}
+      rotation: {x: -0.00056944846, y: -0.031190835, z: 0.024359334, w: 0.9992165}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbDRJT
+      position: {x: 0.0014196845, y: 0.000000008130144, z: 0.000000024426358}
+      rotation: {x: -0.043619387, y: 0, z: -0, w: 0.99904823}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2ARJT
+      position: {x: 0.0024175695, y: -0.00025822382, z: -0.0003662303}
+      rotation: {x: -5.820529e-11, y: 0.0073098615, z: -0.005154056, w: 0.99996}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BRJT
+      position: {x: 0.0010591, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CRJT
+      position: {x: 0.0009548, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2RJTEnd
+      position: {x: 0.00091859995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3ARJT
+      position: {x: 0.0024359694, y: -0.0002550238, z: 0.00028811567}
+      rotation: {x: -5.820529e-11, y: 0.0073098615, z: -0.005154056, w: 0.99996}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BRJT
+      position: {x: 0.0009955, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CRJT
+      position: {x: 0.0009245, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3RJTEnd
+      position: {x: 0.00088069995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4ARJT
+      position: {x: 0.0023329693, y: -0.00013812383, z: 0.0009022716}
+      rotation: {x: -5.820529e-11, y: 0.0073098615, z: -0.005154056, w: 0.99996}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BRJT
+      position: {x: 0.0010407, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CRJT
+      position: {x: 0.0007502, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4RJTEnd
+      position: {x: 0.0007002999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: neckJT
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: neckSpace
+      position: {x: -0, y: 0, z: 6.938894e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: neck
+      position: {x: -0.0000017133011, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:albert_modelForRigRNfosterParent1
+      position: {x: 0.0000017133011, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:controls
+      position: {x: -0.004736525, y: 0.007931777, z: -0.00048445462}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 8.659561e-17, w: 8.7157646e-33}
+      scale: {x: 0.004897928, y: 0.004897928, z: 0.004897928}
+      transformModified: 0
+    - name: boshi_skin:browsFrame
+      position: {x: -1.3716, y: 0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:brows_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:browsCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:emotionFrame
+      position: {x: -1.3716, y: -0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:emotion_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:emotionCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:eyesFrame
+      position: {x: -0.60959995, y: 0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:eyes_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:eyesCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headBottomFrame
+      position: {x: -2.7432, y: -0.60959995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+      transformModified: 0
+    - name: boshi_skin:headBottom_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headBottomCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headMiddleFrame
+      position: {x: -2.7432, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+      transformModified: 0
+    - name: boshi_skin:headMiddle_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headMiddleCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headTopFrame
+      position: {x: -2.7432, y: 0.60959995, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 0.5}
+      transformModified: 0
+    - name: boshi_skin:headTop_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:headTopCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:lidsFrame
+      position: {x: -2.1336, y: 0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:lids_label
+      position: {x: -0, y: 0.30479997, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:lidsCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:syncFrame
+      position: {x: -0.76199996, y: -0.30479997, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:sync_label
+      position: {x: -0.15239999, y: -0.025068492, z: 0}
+      rotation: {x: 0, y: 0, z: 1, w: -6.123234e-17}
+      scale: {x: 0.5, y: 0.5, z: 1}
+      transformModified: 0
+    - name: boshi_skin:syncCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothLineFrame
+      position: {x: -1.9811999, y: -0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothLine_label
+      position: {x: -0, y: 0.3285744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothLineCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothScaleFrame
+      position: {x: -2.286, y: -0.4572, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothScale_label
+      position: {x: -0, y: 0.3285744, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5, y: 0.5, z: 1}
+      transformModified: 0
+    - name: boshi_skin:toothScaleCtrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: boshi_skin:finalHead
+      position: {x: -0.00006439626, y: -9.09547e-17, z: 0}
+      rotation: {x: -0.7029314, y: 0.7029314, z: 0.0767298, w: -0.0767298}
+      scale: {x: 0.015071531, y: 0.015071531, z: 0.015071531}
+      transformModified: 0
+    - name: headSpace
+      position: {x: -0.0019533357, y: 4.3410806e-19, z: -1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: head
+      position: {x: 0.00010080125, y: -2.7755575e-19, z: 2.7755575e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: eyebrowCtrlSpace
+      position: {x: 0.052736044, y: -1.13952525e-17, z: -0.00048445462}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 8.659561e-17, w: 8.7157646e-33}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: polySurface1
+      position: {x: -0.0059738243, y: 0.00018883227, z: 0.001525276}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: yanjing:polySurface1
+      position: {x: -0.0000713253, y: -2.3569157e-18, z: 0}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 8.659561e-17, w: 8.7157646e-33}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: headJT
+      position: {x: -0.0019550489, y: 4.3410806e-19, z: -1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: headJTEnd
+      position: {x: -0.008554527, y: 1.8994865e-18, z: 2.4286128e-18}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: xtraOriJTs
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handLJT_FKOri
+      position: {x: -0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handRJT_FKOri
+      position: {x: 0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: headJT_worldOri
+      position: {x: 7.810456e-33, y: 0.052836847, z: -0.00048445462}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 2.0030707e-16, w: -2.0030707e-16}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: controllerGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: worldProxy
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fkCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavLSpace
+      position: {x: -0.0025855445, y: 0.04822973, z: -0.0006870083}
+      rotation: {x: -5.325159e-17, y: 5.325159e-17, z: 0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderLSpace
+      position: {x: -0.003603677, y: -1.7763568e-17, z: -9.714452e-19}
+      rotation: {x: 0, y: -0, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowLSpace
+      position: {x: -0.011213683, y: 0, z: 1.3877787e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavRSpace
+      position: {x: 0.0025855445, y: 0.04822973, z: -0.0006870083}
+      rotation: {x: 0.9924351, y: -0.12277057, z: -6.645475e-17, w: 5.347821e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: clavR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderRSpace
+      position: {x: 0.003603677, y: 8.881784e-18, z: 1.8041123e-18}
+      rotation: {x: -2.8565787e-31, y: 5.602459e-16, z: -0.12277057, w: 0.9924351}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shoulderR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowRSpace
+      position: {x: 0.011213683, y: -8.881784e-18, z: -1.2351231e-17}
+      rotation: {x: 0, y: -0, z: -2.070693e-34, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: elbowR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handLSpace
+      position: {x: -0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armIkAttacherFKL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1ALSpace
+      position: {x: -0.0023861956, y: -0.000020141535, z: 0.0009840515}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1AL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BLSpace
+      position: {x: -0.00095857744, y: 8.881784e-18, z: -9.020562e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CLSpace
+      position: {x: -0.00088811346, y: 1.7763568e-17, z: -4.7878368e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2ALSpace
+      position: {x: -0.0024175479, y: 0.00025821928, z: 0.00036623038}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2AL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.005363462, z: -0, w: 0.99998564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BLSpace
+      position: {x: -0.0010591506, y: -8.881784e-18, z: 6.9388935e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CLSpace
+      position: {x: -0.00095472723, y: 0, z: -1.9428903e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3ALSpace
+      position: {x: -0.0024359985, y: 0.0002550635, z: -0.00028811538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3AL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.005363462, z: -0, w: 0.99998564}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BLSpace
+      position: {x: -0.0009955073, y: 1.7763568e-17, z: 1.2490008e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CLSpace
+      position: {x: -0.00092443556, y: 8.881784e-18, z: -1.3877787e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4ALSpace
+      position: {x: -0.0023329696, y: 0.00013808765, z: -0.00090227503}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4AL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.010720851, z: -0, w: 0.99994254}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BLSpace
+      position: {x: -0.0010407491, y: -2.6645352e-17, z: 5.2735593e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CLSpace
+      position: {x: -0.00075012725, y: -8.881784e-18, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbALSpace
+      position: {x: -0.0004931202, y: -0.000533299, z: 0.00075245794}
+      rotation: {x: 0.72714925, y: 0.1996517, z: 0.037840772, w: 0.65571433}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbAL
+      position: {x: -1.110223e-18, y: 2.220446e-18, z: 8.881784e-18}
+      rotation: {x: 0.00018782959, y: 0.003172122, z: -0.059108768, w: 0.9982465}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBLSpace
+      position: {x: -0.0011955325, y: 1.4432899e-17, z: -1.7763568e-17}
+      rotation: {x: 0.006048128, y: -0.105024695, z: 0.035618104, w: 0.99381316}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBL
+      position: {x: -4.440892e-18, y: 1.110223e-18, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCLSpace
+      position: {x: -0.0008773096, y: -4.440892e-18, z: 0}
+      rotation: {x: -0.0005685114, y: -0.0637707, z: 0.049809173, w: 0.9967207}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handRSpace
+      position: {x: 0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 1, y: -0, z: 0, w: 2.2816785e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: handR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armIkAttacherFKR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1ARSpace
+      position: {x: 0.0023861693, y: 0.000020176174, z: -0.0009840513}
+      rotation: {x: 2.3429107e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1AR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.0029115719, y: -0.03477783, z: -0.00010131988, w: 0.99939084}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BRSpace
+      position: {x: 0.00095859997, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1BR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CRSpace
+      position: {x: 0.00088809995, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing1CR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2ARSpace
+      position: {x: 0.0024175695, y: -0.00025822382, z: -0.0003662303}
+      rotation: {x: 2.3429107e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2AR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BRSpace
+      position: {x: 0.0010591, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2BR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CRSpace
+      position: {x: 0.0009548, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing2CR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3ARSpace
+      position: {x: 0.0024359694, y: -0.0002550238, z: 0.00028811567}
+      rotation: {x: 2.3429107e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3AR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BRSpace
+      position: {x: 0.0009955, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3BR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CRSpace
+      position: {x: 0.0009245, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing3CR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4ARSpace
+      position: {x: 0.0023329693, y: -0.00013812383, z: 0.0009022716}
+      rotation: {x: 2.3429107e-15, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4AR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BRSpace
+      position: {x: 0.0010407, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4BR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CRSpace
+      position: {x: 0.0007502, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: fing4CR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbARSpace
+      position: {x: 0.0004931694, y: 0.0005332762, z: -0.00075245806}
+      rotation: {x: 0.72714925, y: 0.1996517, z: 0.037840772, w: 0.65571433}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbAR
+      position: {x: -2.220446e-18, y: 0, z: -8.881784e-18}
+      rotation: {x: -2.359224e-16, y: 6.938894e-18, z: 2.7755576e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBRSpace
+      position: {x: 0.0011954567, y: -0.000000026056847, z: -0.0000000731713}
+      rotation: {x: 0.006048128, y: -0.105024695, z: 0.035618104, w: 0.99381316}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbBR
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: 0, y: 0, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCRSpace
+      position: {x: 0.0008773156, y: 0.0000000029633962, z: 0.00000002026961}
+      rotation: {x: -0.0005685114, y: -0.0637707, z: 0.049809173, w: 0.9967207}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: thumbCR
+      position: {x: 4.440892e-18, y: 0, z: -8.881784e-18}
+      rotation: {x: -1.9428903e-16, y: -8.6736174e-19, z: 1.3877788e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegLSpace
+      position: {x: -0.003245418, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: -0.0015152347, y: 0.0015152347, z: 0.70710516, w: 0.70710516}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegL
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: 4.336769e-19, y: 4.3368087e-19, z: 1.6191635e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeLSpace
+      position: {x: -0.016053015, y: 6.1062266e-18, z: 0}
+      rotation: {x: -3.2083652e-18, y: -0.05219876, z: 9.30777e-19, w: 0.9986367}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeL
+      position: {x: -0, y: 0, z: 2.7755575e-19}
+      rotation: {x: 2.311116e-33, y: -0, z: -2.95871e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleLSpace
+      position: {x: -0.016000407, y: 1.5543122e-17, z: -8.3266725e-19}
+      rotation: {x: 5.075421e-32, y: 0.6355861, z: -6.1990723e-32, w: 0.77203006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleL
+      position: {x: -0, y: -5.551115e-19, z: -2.7755575e-19}
+      rotation: {x: 0, y: -2.7755576e-17, z: 3.081488e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballLSpace
+      position: {x: -0.004838607, y: -4.9960034e-18, z: 7.771561e-18}
+      rotation: {x: 8.505533e-33, y: 0.14618465, z: -3.1307183e-33, w: 0.98925734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballL
+      position: {x: -0, y: -5.551115e-19, z: 3.469447e-20}
+      rotation: {x: 3.081488e-33, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeAttachFKL
+      position: {x: -0.0023869271, y: -3.330669e-18, z: 9.78384e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikAttacherFKL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLFkPV
+      position: {x: 0.000009999187, y: -2.6514186e-23, z: 0.00009949882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegRSpace
+      position: {x: 0.003245418, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: -0.70710516, y: 0.70710516, z: -0.0015152347, w: -0.0015152347}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: upLegR
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: -0, y: -4.3368087e-19, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeRSpace
+      position: {x: 0.016053015, y: 2.220446e-18, z: -2.0816681e-19}
+      rotation: {x: 1.6576153e-16, y: -0.05219876, z: 1.6905686e-16, w: 0.9986367}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: kneeR
+      position: {x: -0, y: 1.110223e-18, z: 0}
+      rotation: {x: 1.5777218e-30, y: -0, z: -1.9721523e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleRSpace
+      position: {x: 0.016000407, y: 3.6637358e-17, z: -1.110223e-18}
+      rotation: {x: 5.221151e-30, y: 0.6355861, z: -6.341998e-30, w: 0.77203006}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleR
+      position: {x: -2.7755575e-19, y: -5.551115e-19, z: 0}
+      rotation: {x: 2.0452673e-16, y: -2.7755576e-17, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballRSpace
+      position: {x: 0.004838607, y: -1.1324275e-16, z: -3.8857806e-18}
+      rotation: {x: 0, y: 0.14618465, z: -0, w: 0.98925734}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -1.0014836e-31, y: 2.7755576e-17, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeAttachFKR
+      position: {x: 0.0023869271, y: -6.383782e-17, z: -2.2898349e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikAttacherFKR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRFkPV
+      position: {x: -0.000009999187, y: -2.5435583e-18, z: -0.00009949882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLIkCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLPVNullSpace
+      position: {x: -0.03541473, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLPVNull
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLXtraAim
+      position: {x: -0.006080588, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecLSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armStandardPVLSpace
+      position: {x: -0.011213683, y: 8.881784e-18, z: -0.02931299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armStandardPVL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecAimerL
+      position: {x: -0.006080588, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLengthL
+      position: {x: -0.019334141, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristIkLSpace
+      position: {x: -0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristIkL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armIkAttacherIKL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRIkCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecAimerR
+      position: {x: 0.006080588, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLengthR
+      position: {x: -0.019334141, y: -8.881784e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRPVNullSpace
+      position: {x: 0.01541473, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRPVNull
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRXtraAim
+      position: {x: 0.006080588, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 1, y: -0, z: 0, w: 2.2816785e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecRSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armPoleVecR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armStandardPVRSpace
+      position: {x: 0.011213683, y: -1.4210854e-16, z: 0.02931299}
+      rotation: {x: 1, y: 0, z: 0, w: -2.2816785e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armStandardPVR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristIkRSpace
+      position: {x: 0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristIkR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armIkAttacherIKR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLIkCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footIkLSpace
+      position: {x: -0.003245418, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footIkL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: bladePivGPL
+      position: {x: -0.0019617546, y: -0.0019451188, z: 0.004606405}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: instepPivGPL
+      position: {x: 0.0034623758, y: -1.3877787e-18, z: -0.000038680228}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: heelPivGPL
+      position: {x: -0.0015006212, y: 1.3877787e-18, z: -0.0059635686}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toePivGPL
+      position: {x: 4.440892e-18, y: 2.220446e-18, z: 0.008766207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballPivGPL
+      position: {x: 7.216449e-18, y: 0.0005456558, z: -0.002738558}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: heelUpGPL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikAttacherIKL
+      position: {x: -6.661338e-18, y: 0.0013994629, z: -0.0046318052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeUpGPL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeAttachIKL
+      position: {x: 1.6653345e-18, y: 8.3266725e-19, z: 0.0023869271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footPivLSpace
+      position: {x: 6.1062266e-18, y: -0.0016534308, z: 0.0046318052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footPivL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLPVNullSpace
+      position: {x: -0.103245415, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLPVNull
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecAimerL
+      position: {x: -0.003245418, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: 0.016916258, y: -0.016916258, z: 0.7069044, w: 0.7069044}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLengthL
+      position: {x: -0.032009725, y: -8.881784e-18, z: -3.4694467e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLXtraAim
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 4.6147443e-18, y: 0.026065398, z: 2.221806e-16, w: 0.99966025}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecLSpace
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecL
+      position: {x: 4.440892e-18, y: -1.110223e-18, z: 0}
+      rotation: {x: -0, y: 4.3368087e-19, z: 1.6191823e-32, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legStandardPVLSpace
+      position: {x: -0.01617951, y: 7.216449e-18, z: 0.029514836}
+      rotation: {x: 0.0015152347, y: -0.0015152347, z: -0.70710516, w: 0.70710516}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legStandardPVL
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRIkCtrlGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footIkRSpace
+      position: {x: 0.003245418, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footIkR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: bladePivGPR
+      position: {x: 0.0019617546, y: -0.0019451188, z: 0.004606405}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: instepPivGPR
+      position: {x: -0.0034623758, y: -1.110223e-18, z: -0.000038680228}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: heelPivGPR
+      position: {x: 0.0015006212, y: 1.110223e-18, z: -0.0059635686}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toePivGPR
+      position: {x: -2.220446e-18, y: 1.3877787e-18, z: 0.008766207}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballPivGPR
+      position: {x: -6.661338e-18, y: 0.0005456558, z: -0.002738558}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: heelUpGPR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikAttacherIKR
+      position: {x: 4.440892e-18, y: 0.0013994629, z: -0.0046318052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeUpGPR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: toeAttachIKR
+      position: {x: 1.6653345e-18, y: 1.110223e-18, z: 0.0023869271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footPivRSpace
+      position: {x: -4.9960034e-18, y: -0.0016534308, z: 0.0046318052}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: footPivR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecAimerR
+      position: {x: 0.003245418, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: 0.7069044, y: 0.7069044, z: 0.016916258, w: -0.016916258}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLengthR
+      position: {x: -0.032009725, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRXtraAim
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.023923203, y: 1.2707356e-14, z: 0.99971384, w: 2.429079e-16}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecRSpace
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legPoleVecR
+      position: {x: -0, y: -5.551115e-19, z: 0}
+      rotation: {x: -0, y: -4.3368087e-19, z: -6.162976e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legStandardPVRSpace
+      position: {x: 0.016052868, y: -7.471801e-16, z: -0.029583907}
+      rotation: {x: 0.7071068, y: -0.7071068, z: 8.949528e-15, w: 9.036124e-15}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legStandardPVR
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRPVNullSpace
+      position: {x: 0.103245415, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRPVNull
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: uprBody
+      position: {x: -0, y: 0.033626515, z: 0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: hipJTSpace
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: -0.7071068, z: -4.3297806e-17, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: hipJT
+      position: {x: 4.440892e-18, y: 0, z: -6.938894e-20}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: hipLoc
+      position: {x: -0, y: -0.033626515, z: -0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shldrJT
+      position: {x: -5.0323527e-33, y: 0.009434798, z: 0}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: shldrLoc
+      position: {x: -0, y: -0.033626515, z: -0.00041609246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineAFK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0.7071068, z: 4.3297806e-17, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineBFKSpace
+      position: {x: -0.0031449331, y: 6.9831544e-19, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineBFK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineCFKSpace
+      position: {x: -0.0031449331, y: 6.9831544e-19, z: 4.1633362e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineCFK
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineDFKSpace
+      position: {x: -0.0031449331, y: 6.9831544e-19, z: 4.1633362e-19}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineDFK
+      position: {x: -0, y: 1.9721522e-33, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: geoGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Doctor_coat2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Doctor_hands_geo1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: Doctor_pants_geo
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: setupGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ikHandleGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armLIkHandleGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristLIkH
+      position: {x: -0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: armRIkHandleGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: wristRIkH
+      position: {x: 0.025414731, y: 0.047351573, z: -0.0006870083}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLIkHandleGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleLIkH
+      position: {x: -0.0040497216, y: 0.00025396075, z: 0.003446415}
+      rotation: {x: 0, y: -0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballLPV
+      position: {x: 0.009999999, y: 0.00000000701786, z: 0.0000000031260978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballLIkH
+      position: {x: -0.0044642068, y: 0.0002539551, z: 0.0057970798}
+      rotation: {x: 0, y: -0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legLIkH
+      position: {x: -0.003245418, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: -0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleLPV
+      position: {x: 0.004, y: -3.0101194e-10, z: -3.7469233e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRIkHandleGP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleRIkH
+      position: {x: 0.0040497216, y: 0.00025396075, z: 0.003446415}
+      rotation: {x: 0, y: 0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballRPV
+      position: {x: 0.01, y: 0.0000000070177646, z: 0.0000000031250362}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ballRIkH
+      position: {x: 0.0044642077, y: 0.0002539551, z: 0.0057970798}
+      rotation: {x: 0, y: 0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: legRIkH
+      position: {x: 0.003245418, y: 0.0016534308, z: -0.0011150193}
+      rotation: {x: 0, y: 0.087155744, z: -0, w: 0.9961947}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: ankleRPV
+      position: {x: -0.004, y: -2.7512669e-17, z: -1.2127538e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    - name: spineLengthD
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 0
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: c1738ba0f78128944a1e8f571aabc766
+timeCreated: 1463051480
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Aortic_Base_Inflate
+    100002: Aortic_Tip_Inflate
+    100004: Aortic_Valve_Closed
+    100006: Aortic_Valve_Open
+    100008: Bicuspid_Valve_CLosed
+    100010: Bicuspid_Valve_Open
+    100012: Caval_Dilation
+    100014: Cinema4D_Editor
+    100016: Heart
+    100018: //RootNode
+    100020: Left_Atrial_Contraction
+    100022: Left_Atrial_Relaxation
+    100024: Left_Ventricular_Contraction
+    100026: Left_Ventricular_Relaxation
+    100028: Poses__Heart
+    100030: Pulmonary_Base_Inflate
+    100032: Pulmonary_in_dilation
+    100034: Pulmonary_Tip_Inflate
+    100036: Pulmonary_Valve_CLosed
+    100038: Pulmonary_Valve_Open
+    100040: Right_atrial_Contraction
+    100042: Right_Atrial_Relaxation
+    100044: Right_Ventricular_Contraction
+    100046: Right_Ventricular_Relaxation
+    100048: Tricuspid_Valve_Close
+    100050: Tricuspid_Valve_Open
+    400000: Aortic_Base_Inflate
+    400002: Aortic_Tip_Inflate
+    400004: Aortic_Valve_Closed
+    400006: Aortic_Valve_Open
+    400008: Bicuspid_Valve_CLosed
+    400010: Bicuspid_Valve_Open
+    400012: Caval_Dilation
+    400014: Cinema4D_Editor
+    400016: Heart
+    400018: //RootNode
+    400020: Left_Atrial_Contraction
+    400022: Left_Atrial_Relaxation
+    400024: Left_Ventricular_Contraction
+    400026: Left_Ventricular_Relaxation
+    400028: Poses__Heart
+    400030: Pulmonary_Base_Inflate
+    400032: Pulmonary_in_dilation
+    400034: Pulmonary_Tip_Inflate
+    400036: Pulmonary_Valve_CLosed
+    400038: Pulmonary_Valve_Open
+    400040: Right_atrial_Contraction
+    400042: Right_Atrial_Relaxation
+    400044: Right_Ventricular_Contraction
+    400046: Right_Ventricular_Relaxation
+    400048: Tricuspid_Valve_Close
+    400050: Tricuspid_Valve_Open
+    2300000: Aortic_Base_Inflate
+    2300002: Aortic_Tip_Inflate
+    2300004: Aortic_Valve_Closed
+    2300006: Aortic_Valve_Open
+    2300008: Bicuspid_Valve_CLosed
+    2300010: Bicuspid_Valve_Open
+    2300012: Caval_Dilation
+    2300014: Left_Atrial_Contraction
+    2300016: Left_Atrial_Relaxation
+    2300018: Left_Ventricular_Contraction
+    2300020: Left_Ventricular_Relaxation
+    2300022: Pulmonary_Base_Inflate
+    2300024: Pulmonary_in_dilation
+    2300026: Pulmonary_Tip_Inflate
+    2300028: Pulmonary_Valve_CLosed
+    2300030: Pulmonary_Valve_Open
+    2300032: Right_atrial_Contraction
+    2300034: Right_Atrial_Relaxation
+    2300036: Right_Ventricular_Contraction
+    2300038: Right_Ventricular_Relaxation
+    2300040: Tricuspid_Valve_Close
+    2300042: Tricuspid_Valve_Open
+    3300000: Aortic_Base_Inflate
+    3300002: Aortic_Tip_Inflate
+    3300004: Aortic_Valve_Closed
+    3300006: Aortic_Valve_Open
+    3300008: Bicuspid_Valve_CLosed
+    3300010: Bicuspid_Valve_Open
+    3300012: Caval_Dilation
+    3300014: Left_Atrial_Contraction
+    3300016: Left_Atrial_Relaxation
+    3300018: Left_Ventricular_Contraction
+    3300020: Left_Ventricular_Relaxation
+    3300022: Pulmonary_Base_Inflate
+    3300024: Pulmonary_in_dilation
+    3300026: Pulmonary_Tip_Inflate
+    3300028: Pulmonary_Valve_CLosed
+    3300030: Pulmonary_Valve_Open
+    3300032: Right_atrial_Contraction
+    3300034: Right_Atrial_Relaxation
+    3300036: Right_Ventricular_Contraction
+    3300038: Right_Ventricular_Relaxation
+    3300040: Tricuspid_Valve_Close
+    3300042: Tricuspid_Valve_Open
+    4300000: Heart
+    4300002: Right_Ventricular_Contraction
+    4300004: Pulmonary_in_dilation
+    4300006: Left_Ventricular_Contraction
+    4300008: Caval_Dilation
+    4300010: Pulmonary_Tip_Inflate
+    4300012: Pulmonary_Base_Inflate
+    4300014: Aortic_Tip_Inflate
+    4300016: Aortic_Base_Inflate
+    4300018: Aortic_Valve_Closed
+    4300020: Aortic_Valve_Open
+    4300022: Pulmonary_Valve_CLosed
+    4300024: Pulmonary_Valve_Open
+    4300026: Bicuspid_Valve_Open
+    4300028: Bicuspid_Valve_CLosed
+    4300030: Tricuspid_Valve_Close
+    4300032: Tricuspid_Valve_Open
+    4300034: Right_Ventricular_Relaxation
+    4300036: Left_Ventricular_Relaxation
+    4300038: Left_Atrial_Relaxation
+    4300040: Right_Atrial_Relaxation
+    4300042: Right_atrial_Contraction
+    4300044: Left_Atrial_Contraction
+    7400000: C4D Animation Take
+    9500000: //RootNode
+    13700000: Heart
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: C4D Animation Take
+      takeName: C4D Animation Take
+      firstFrame: 0
+      lastFrame: 83
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.010869653
+        functionName: CloseVC
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.046181172
+        functionName: StartRV6
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.07444833
+        functionName: MitralEmit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.088484764
+        functionName: StartPulmonary
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.28319243
+        functionName: StopRV1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.32913032
+        functionName: OpenVC
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.37405798
+        functionName: StopRV2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4074481
+        functionName: StopPulmonary
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.41932946
+        functionName: StopRV6
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4410501
+        functionName: StopRV3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4981158
+        functionName: StopRV4
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.5549276
+        functionName: StopRV5
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.6791544
+        functionName: StartRV1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7050121
+        functionName: MitralStop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.7305936
+        functionName: StartRV2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.745833
+        functionName: StartRV3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.76290476
+        functionName: StartRV4
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.80106574
+        functionName: StartRV5
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.077259004
+        functionName: TricuspidEmit
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.70971406
+        functionName: TricuspidStop
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.091189764
+        functionName: StartAortic
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4106174
+        functionName: StopAortic
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.68403614
+        functionName: StartLV1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.75015074
+        functionName: StartLV2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8112952
+        functionName: StartLV3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.28712353
+        functionName: StopLV1
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.43072304
+        functionName: StopLV2
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.46656623
+        functionName: StopLV3
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cinema4D_Editor
+        weight: 1
+      - path: Heart
+        weight: 1
+      - path: Heart/Poses__Heart
+        weight: 1
+      - path: Heart/Poses__Heart/Aortic_Base_Inflate
+        weight: 1
+      - path: Heart/Poses__Heart/Aortic_Tip_Inflate
+        weight: 1
+      - path: Heart/Poses__Heart/Aortic_Valve_Closed
+        weight: 1
+      - path: Heart/Poses__Heart/Aortic_Valve_Open
+        weight: 1
+      - path: Heart/Poses__Heart/Bicuspid_Valve_CLosed
+        weight: 1
+      - path: Heart/Poses__Heart/Bicuspid_Valve_Open
+        weight: 1
+      - path: Heart/Poses__Heart/Caval_Dilation
+        weight: 1
+      - path: Heart/Poses__Heart/Left_Atrial_Contraction
+        weight: 1
+      - path: Heart/Poses__Heart/Left_Atrial_Relaxation
+        weight: 1
+      - path: Heart/Poses__Heart/Left_Ventricular_Contraction
+        weight: 1
+      - path: Heart/Poses__Heart/Left_Ventricular_Relaxation
+        weight: 1
+      - path: Heart/Poses__Heart/Pulmonary_Base_Inflate
+        weight: 1
+      - path: Heart/Poses__Heart/Pulmonary_in_dilation
+        weight: 1
+      - path: Heart/Poses__Heart/Pulmonary_Tip_Inflate
+        weight: 1
+      - path: Heart/Poses__Heart/Pulmonary_Valve_CLosed
+        weight: 1
+      - path: Heart/Poses__Heart/Pulmonary_Valve_Open
+        weight: 1
+      - path: Heart/Poses__Heart/Right_atrial_Contraction
+        weight: 1
+      - path: Heart/Poses__Heart/Right_Atrial_Relaxation
+        weight: 1
+      - path: Heart/Poses__Heart/Right_Ventricular_Contraction
+        weight: 1
+      - path: Heart/Poses__Heart/Right_Ventricular_Relaxation
+        weight: 1
+      - path: Heart/Poses__Heart/Tricuspid_Valve_Close
+        weight: 1
+      - path: Heart/Poses__Heart/Tricuspid_Valve_Open
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
