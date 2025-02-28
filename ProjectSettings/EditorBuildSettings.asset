@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scene/InitScene.unity
+    guid: dd91e17198a63a54882a5a80f936f258
+  - enabled: 1
+    path: Assets/Scene/LoginScene.unity
+    guid: e84643a83b8cc614b9ea49790cd1ae27
+  - enabled: 1
+    path: Assets/Scene/MainScene.unity
+    guid: 8003258e5e42c7049a0cfccec41c445e
+  - enabled: 1
+    path: Assets/Scene/OfficeScene.unity
+    guid: e75cf5272aa6daa4fad653e5d8e3247c
+  - enabled: 1
+    path: Assets/Scene/human_abdomen.unity
+    guid: e265f1f0eebb02c4d87c4d4f308acd6f
+  - enabled: 1
+    path: Assets/Scene/DrawScene.unity
+    guid: 109960131fd14d242a255032537567d4
+  - enabled: 1
+    path: Assets/Scene/ArScene.unity
+    guid: 5af2be2792e7b3148bc5a166a356ae9d
+  - enabled: 1
+    path: Assets/Scene/HouseScene.unity
+    guid: a5dde7bb441ce244ba6de5ffd1ac287a
+  - enabled: 1
+    path: Assets/Scene/RobotScene.unity
+    guid: 04183f526006eaa428cca052c832f97c
+  - enabled: 1
+    path: Assets/Scene/HeartScene.unity
+    guid: 5ce413d3a3fda134ea1f8b8a6e90ef22
+  - enabled: 1
+    path: Assets/Scene/ShowroomScene.unity
+    guid: 6133b395171f74449aa8e308224f7698
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 5ca89f7d5cb9a0a4aa3d47e321ce3e13, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7b696b765ff32cf4d8f1bc82e7aecec2, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 289e52ac9a1b3744fa68e143d29f525b, type: 2}
+  m_UseUCBPForAssetBundles: 0
