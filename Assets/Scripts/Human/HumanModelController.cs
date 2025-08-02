@@ -11,6 +11,7 @@ using Base;
 using MixedReality.Toolkit.SpatialManipulation;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.Rendering;
+using MixedReality.Toolkit.UX;
 
 public class HumanModelController : Singleton<HumanModelController>
 {
@@ -149,6 +150,7 @@ public class HumanModelController : Singleton<HumanModelController>
 
         scr.gameObject.AddComponent<ConstraintManager>();
         var om = scr.gameObject.AddComponent<ObjectManipulator>();
+        scr.gameObject.AddComponent<UGUIInputAdapterDraggable>();
         om.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
         {
             var c = e.interactableObject.transform.gameObject.GetComponentInChildren<Collider>();

@@ -148,7 +148,7 @@ public class BasePanelEx<T> : PanelSingleton<T>, IRefreshable where T : BasePane
             var newb = go.AddComponent<PressableButton>();
             if (newb)
             {
-                newb.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
+                newb.OnClicked.AddListener(delegate ()
                 {
                     this.OnClick(newb.gameObject);
                 });

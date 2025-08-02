@@ -65,7 +65,6 @@ namespace MoleculeUI
         }
 
         Dictionary<MonoBehaviour, UnityAction> clickactions = new Dictionary<MonoBehaviour, UnityAction>();
-        Dictionary<MonoBehaviour, UnityAction<SelectExitEventArgs>> clickactions2 = new Dictionary<MonoBehaviour, UnityAction<SelectExitEventArgs>>();
         Dictionary<Toggle, UnityAction<bool>> toggleactions = new Dictionary<Toggle, UnityAction<bool>>();
 
         private void UnBindEvents()
@@ -99,11 +98,11 @@ namespace MoleculeUI
                         var btn = buttons[i];
                         if (btn)
                         {
-                            if (clickactions2.ContainsKey(btn))
+                            if (clickactions.ContainsKey(btn))
                             {
-                                UnityAction<SelectExitEventArgs> uaction = clickactions2[btn];
-                                btn.lastSelectExited.RemoveListener(uaction);
-                                clickactions2.Remove(btn);
+                                UnityAction uaction = clickactions[btn];
+                                btn.OnClicked.RemoveListener(uaction);
+                                clickactions.Remove(btn);
                             }
                         }
                     }
@@ -157,12 +156,12 @@ namespace MoleculeUI
                         var btn = buttons[i];
                         if (btn)
                         {
-                            UnityAction<SelectExitEventArgs> uaction = delegate (SelectExitEventArgs e) 
+                            UnityAction uaction = delegate () 
                             {
-                                this.OnSelflClick(e.interactableObject.transform.gameObject); 
+                                this.OnSelflClick(btn.gameObject); 
                             };
-                            btn.lastSelectExited.AddListener(uaction);
-                            clickactions2[btn] = uaction;
+                            btn.OnClicked.AddListener(uaction);
+                            clickactions[btn] = uaction;
                         }
                     }
                 }

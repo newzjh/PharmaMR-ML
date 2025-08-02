@@ -58,11 +58,11 @@ public class ActorController : MonoBehaviour
         transform.localPosition = initpos;
 
         var om = gameObject.AddComponent<PressableButton>();
+        gameObject.AddComponent<UGUIInputAdapterDraggable>();
         om.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
         {
             Selected.Invoke(e);
         });
-        gameObject.AddComponent<UGUIInputAdapter>();
     }
 
     [NonSerialized]

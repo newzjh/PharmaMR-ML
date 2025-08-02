@@ -79,7 +79,7 @@ public class ResourceBrowserPanelEx : BasePanelEx<ResourceBrowserPanelEx>
             if (t)
             {
                 //t.gameObject.GetComponent<Button>().onClick.AddListener(delegate() { this.OnSelect(); });
-                t.gameObject.GetComponent<PressableButton>().lastSelectExited.AddListener(delegate (SelectExitEventArgs e) { this.OnSelect(); });
+                t.gameObject.GetComponent<PressableButton>().OnClicked.AddListener(delegate () { this.OnSelect(); });
             }
         }
         {
@@ -87,7 +87,7 @@ public class ResourceBrowserPanelEx : BasePanelEx<ResourceBrowserPanelEx>
             if (t)
             {
                 //t.gameObject.GetComponent<Button>().onClick.AddListener(delegate() { this.OnCancel(); });
-                t.gameObject.GetComponent<PressableButton>().lastSelectExited.AddListener(delegate (SelectExitEventArgs e) { this.OnCancel(); });
+                t.gameObject.GetComponent<PressableButton>().OnClicked.AddListener(delegate () { this.OnCancel(); });
             }
         }
     }
@@ -207,7 +207,7 @@ public class ResourceBrowserPanelEx : BasePanelEx<ResourceBrowserPanelEx>
                 var newb = go.AddComponent<PressableButton>();
                 if (newb)
                 {
-                    newb.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
+                    newb.OnClicked.AddListener(delegate ()
                     {
                         this.OnSelectFile(newb);
                     });

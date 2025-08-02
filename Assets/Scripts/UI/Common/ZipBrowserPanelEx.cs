@@ -129,7 +129,7 @@ public class ZipBrowserPanelEx : BasePanelEx<ZipBrowserPanelEx>
             if (t)
             {
                 //t.gameObject.GetComponent<Button>().onClick.AddListener(delegate() { this.OnSelect(); });
-                t.gameObject.GetComponent<PressableButton>().lastSelectExited.AddListener(delegate (SelectExitEventArgs e) { this.OnSelect(); });
+                t.gameObject.GetComponent<PressableButton>().OnClicked.AddListener(delegate () { this.OnSelect(); });
             }
         }
         {
@@ -137,7 +137,7 @@ public class ZipBrowserPanelEx : BasePanelEx<ZipBrowserPanelEx>
             if (t)
             {
                 //t.gameObject.GetComponent<Button>().onClick.AddListener(delegate() { this.OnCancel(); });
-                t.gameObject.GetComponent<PressableButton>().lastSelectExited.AddListener(delegate (SelectExitEventArgs e) { this.OnCancel(); });
+                t.gameObject.GetComponent<PressableButton>().OnClicked.AddListener(delegate () { this.OnCancel(); });
             }
         }
     }
@@ -450,7 +450,7 @@ public class ZipBrowserPanelEx : BasePanelEx<ZipBrowserPanelEx>
                 var newb = go.AddComponent<PressableButton>();
                 if (newb)
                 {
-                    newb.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
+                    newb.OnClicked.AddListener(delegate ()
                     {
                         this.OnSelectFolder(newb);
                     });
@@ -487,11 +487,10 @@ public class ZipBrowserPanelEx : BasePanelEx<ZipBrowserPanelEx>
                 var newb = go.AddComponent<PressableButton>();
                 if (newb)
                 {
-                    newb.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
+                    newb.OnClicked.AddListener(delegate ()
                     {
                         this.OnSelectFile(newb);
                     });
-
                 }
                 var adapter = go.AddComponent<UGUIInputAdapter>();
                 adapter.interactable = true;

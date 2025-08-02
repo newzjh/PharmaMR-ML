@@ -137,6 +137,7 @@ namespace MoleculeLogic
 
             gameObject.AddComponent<ConstraintManager>();
             var om = gameObject.AddComponent<ObjectManipulator>();
+            gameObject.AddComponent<UGUIInputAdapterDraggable>();
             om.lastSelectExited.AddListener(delegate (SelectExitEventArgs e)
             {
                 Selected.Invoke(e);
