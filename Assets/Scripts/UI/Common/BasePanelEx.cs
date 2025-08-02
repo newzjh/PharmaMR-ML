@@ -117,6 +117,7 @@ public class BasePanelEx<T> : PanelSingleton<T>, IRefreshable where T : BasePane
         //}
 
         HashSet<Button> otherbuttons = new HashSet<Button>();
+        HashSet<Toggle> othertoggles = new HashSet<Toggle>();
         BasePanelMonoBehaviour[] subpanels = this.GetComponentsInChildren<BasePanelMonoBehaviour>(true);
         if (subpanels!=null)
         {
@@ -125,14 +126,24 @@ public class BasePanelEx<T> : PanelSingleton<T>, IRefreshable where T : BasePane
                 var other = subpanels[i].GetComponentsInChildren<Button>(true);
                 foreach(var b in other)
                     otherbuttons.Add(b);
+                var other2 = subpanels[i].GetComponentsInChildren<Toggle>(true);
+                foreach (var t in other2)
+                    othertoggles.Add(t);
             }
         }
         List<Button> mybuttons = new List<Button>();
+        List<Toggle> mytoggles = new List<Toggle>();
         Button[] buttons = this.GetComponentsInChildren<Button>(true);
         foreach(var b in buttons)
         {
             if (!otherbuttons.Contains(b))
                 mybuttons.Add(b);
+        }
+        Toggle[] toggles = this.GetComponentsInChildren<Toggle>(true);
+        foreach (var t in toggles)
+        {
+            if (!othertoggles.Contains(t))
+                mytoggles.Add(t);
         }
 
         for (int i = 0; i < mybuttons.Count; i++)
@@ -166,19 +177,46 @@ public class BasePanelEx<T> : PanelSingleton<T>, IRefreshable where T : BasePane
 
         }
 
+        for (int i = 0; i < mytoggles.Count; i++)
+        {
+            Toggle t = mytoggles[i];
+            bool istoggle = t.isOn;
+
+            var go = t.gameObject;
+            Toggle.DestroyImmediate(t);
+            var rc = go.GetComponent<RectTransform>();
+            var box = go.AddComponent<BoxCollider>();
+            box.center = new Vector3(0, 0, 4.606735f);
+            box.size = new Vector3(rc.sizeDelta.x, rc.sizeDelta.y, 32);
+            var newb = go.AddComponent<PressableButton>();
+            newb.ToggleMode = MixedReality.Toolkit.StatefulInteractable.ToggleType.Toggle;
+            newb.ForceSetToggled(istoggle);
+            if (newb)
+            {
+                //newb.IsToggled.OnEntered.AddListener(delegate (float e)
+                //{
+                //    //this.OnToggleClick(newb.gameObject);
+                //});
+                //newb.IsToggled.OnExited.AddListener(delegate (float e)
+                //{
+                //    //this.OnToggleClick(newb.gameObject);
+                //});
+                newb.firstHoverEntered.AddListener(delegate (HoverEnterEventArgs e)
+                {
+                    e.interactableObject.transform.localScale = 1.1f * Vector3.one;
+                });
+                newb.lastHoverExited.AddListener(delegate (HoverExitEventArgs e)
+                {
+                    e.interactableObject.transform.localScale = 1.0f * Vector3.one;
+                });
+            }
+            var adapter = go.AddComponent<UGUIInputAdapter>();
+            adapter.interactable = true;
+
+        }
+
         Invoke("ReCalc", 0.1f);
 
-        //for (int i = 0; i < mybuttons.Count; i++)
-        //{
-        //    Button b = mybuttons[i];
-        //    if (b)
-        //    {
-        //        b.onClick.AddListener(delegate ()
-        //        {
-        //            this.OnClick(b.gameObject);
-        //        });
-        //    }
-        //}
 
     }
 

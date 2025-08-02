@@ -66,6 +66,8 @@ namespace MoleculeUI
 
         Dictionary<MonoBehaviour, UnityAction> clickactions = new Dictionary<MonoBehaviour, UnityAction>();
         Dictionary<Toggle, UnityAction<bool>> toggleactions = new Dictionary<Toggle, UnityAction<bool>>();
+        Dictionary<MonoBehaviour, UnityAction<float>> toggleactions1 = new Dictionary<MonoBehaviour, UnityAction<float>>();
+        Dictionary<MonoBehaviour, UnityAction<float>> toggleactions2 = new Dictionary<MonoBehaviour, UnityAction<float>>();
 
         private void UnBindEvents()
         {
@@ -96,7 +98,7 @@ namespace MoleculeUI
                     for (int i = 0; i < buttons.Length; i++)
                     {
                         var btn = buttons[i];
-                        if (btn)
+                        if (btn && btn.ToggleMode == MixedReality.Toolkit.StatefulInteractable.ToggleType.Button)
                         {
                             if (clickactions.ContainsKey(btn))
                             {
@@ -122,6 +124,32 @@ namespace MoleculeUI
                             UnityAction<bool> uaction = toggleactions[tog];
                             tog.onValueChanged.RemoveListener(uaction);
                             toggleactions.Remove(tog);
+                        }
+                    }
+                }
+            }
+
+            {
+                var buttons = this.GetComponentsInChildren<PressableButton>(true);
+                if (buttons != null)
+                {
+                    for (int i = 0; i < buttons.Length; i++)
+                    {
+                        var btn = buttons[i];
+                        if (btn && btn.ToggleMode == MixedReality.Toolkit.StatefulInteractable.ToggleType.Toggle)
+                        {
+                            if (toggleactions1.ContainsKey(btn))
+                            {
+                                UnityAction<float> uaction = toggleactions1[btn];
+                                btn.IsToggled.OnEntered.RemoveListener(uaction);
+                                toggleactions1.Remove(btn);
+                            }
+                            if (toggleactions2.ContainsKey(btn))
+                            {
+                                UnityAction<float> uaction = toggleactions2[btn];
+                                btn.IsToggled.OnExited.RemoveListener(uaction);
+                                toggleactions2.Remove(btn);
+                            }
                         }
                     }
                 }
@@ -154,7 +182,7 @@ namespace MoleculeUI
                     for (int i = 0; i < buttons.Length; i++)
                     {
                         var btn = buttons[i];
-                        if (btn)
+                        if (btn && btn.ToggleMode == MixedReality.Toolkit.StatefulInteractable.ToggleType.Button)
                         {
                             UnityAction uaction = delegate () 
                             {
@@ -178,6 +206,36 @@ namespace MoleculeUI
                         UnityAction<bool> uaction = delegate(bool isOn) { this.OnToggleClick(tog, isOn); };
                         tog.onValueChanged.AddListener(uaction);
                         toggleactions[tog] = uaction;
+                    }
+                }
+            }
+
+            {
+                var buttons = this.GetComponentsInChildren<PressableButton>(true);
+                if (buttons != null)
+                {
+                    for (int i = 0; i < buttons.Length; i++)
+                    {
+                        var btn = buttons[i];
+                        if (btn && btn.ToggleMode == MixedReality.Toolkit.StatefulInteractable.ToggleType.Toggle)
+                        {
+                            {
+                                UnityAction<float> uaction = delegate (float e)
+                                {
+                                    this.OnToggleClick(btn,true);
+                                };
+                                btn.IsToggled.OnEntered.AddListener(uaction);
+                                toggleactions1[btn] = uaction;
+                            }
+                            {
+                                UnityAction<float> uaction = delegate (float e)
+                                {
+                                    this.OnToggleClick(btn,false);
+                                };
+                                btn.IsToggled.OnExited.AddListener(uaction);
+                                toggleactions2[btn] = uaction;
+                            }
+                        }
                     }
                 }
             }
@@ -347,7 +405,7 @@ namespace MoleculeUI
             UpdateTransform();
         }
 
-        void OnToggleClick(Toggle toggle, bool value)
+        void OnToggleClick(MonoBehaviour toggle, bool value)
         {
             if (curlockmc == null) return;
             MoleculeController mc = curlockmc;
@@ -421,11 +479,11 @@ namespace MoleculeUI
             }
             else if (toggle.name == "ToggleX")
             {
-                mc.mol.gameObject.SetActive(toggle.isOn);
+                mc.mol.gameObject.SetActive(value);
             }
             else if (toggle.name == "ToggleA")
             {
-                mc.auto = toggle.isOn;
+                mc.auto = value;
             }
         }
  

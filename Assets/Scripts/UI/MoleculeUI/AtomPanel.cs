@@ -6,6 +6,8 @@ using UnityEngine.Events;
 using UnityEngine.UI;
 using UnifiedInput;
 using MoleculeLogic;
+using MixedReality.Toolkit.UX;
+using MixedReality.Toolkit;
 
 namespace MoleculeUI
 {
@@ -64,9 +66,18 @@ namespace MoleculeUI
                             timg.color = Atom.AtomColorMap[i];
                         }
                     }
-                    tog.isOn = mol.scheme.showatoms[i];
-                    UnityAction<bool> uaction = delegate(bool isOn) { this.OnToggleClick(tog, isOn); };
-                    tog.onValueChanged.AddListener(uaction);
+
+                    if (tog)
+                        Toggle.DestroyImmediate(tog);
+                    var rc = itemgo.GetComponent<RectTransform>();
+                    var box = itemgo.AddComponent<BoxCollider>();
+                    box.center = new Vector3(0, 0, 4.606735f);
+                    box.size = new Vector3(rc.sizeDelta.x, rc.sizeDelta.y, 32);
+                    var b = itemgo.AddComponent<PressableButton>();
+                    b.ToggleMode = MixedReality.Toolkit.StatefulInteractable.ToggleType.Toggle;
+                    b.ForceSetToggled(mol.scheme.showatoms[i]);
+                    b.IsToggled.OnEntered.AddListener(delegate (float e) { this.OnToggleClick(b, true); });
+                    b.IsToggled.OnExited.AddListener(delegate (float e) { this.OnToggleClick(b, false); });
                 }
             }
 
@@ -102,7 +113,7 @@ namespace MoleculeUI
 
         private bool dirty = false;
 
-        void OnToggleClick(Toggle toggle, bool value)
+        void OnToggleClick(MonoBehaviour toggle, bool value)
         {
             dirty = true;
         }
